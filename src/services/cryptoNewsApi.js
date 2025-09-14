@@ -5,7 +5,7 @@ import { cryptoApi } from './cryptoApi'
 const cryptoNewsHeaders = {
     'X-BingApis-SDK': 'true',
     'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com',
-    'X-RapidAPI-Key': '42a2121281msh5356b186643453cp120295jsnf6da55a5adb4'
+    'X-RapidAPI-Key': 'RAPID-API-KEY'
 }
 
 const baseUrl = 'https://bing-news-search1.p.rapidapi.com'
@@ -37,4 +37,5 @@ export const {useGetCryptoNewsQuery} = cryptoNewsApi
 //       'X-RapidAPI-Key': '42a2121281msh5356b186643453cp120295jsnf6da55a5adb4',
 //       'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
 //     }
+
 //   };
