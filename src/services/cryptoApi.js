@@ -3,7 +3,7 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 
 const cryptoApiHeaders ={
     'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com',
-    'X-RapidAPI-Key': '42a2121281msh5356b186643453cp120295jsnf6da55a5adb4',
+    'X-RapidAPI-Key': 'RAPID-API-KEY',
 }
 
 // https://coinranking1.p.rapidapi.com/coin/Qwsogvtv82FCd/history
@@ -56,4 +56,5 @@ export const {useGetCryptosQuery,useGetCryptoDetailsQuery,useGetCryptoHistoryQue
 //       'X-RapidAPI-Key': '42a2121281msh5356b186643453cp120295jsnf6da55a5adb4',
 //       'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
 //     }
+
 //   };
